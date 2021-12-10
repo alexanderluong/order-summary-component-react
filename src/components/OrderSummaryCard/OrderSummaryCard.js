@@ -20,7 +20,7 @@ const OrderSummaryCard = () => {
         device anywhere you like!
       </p>
       <p>Annual Plan $59.99/year Change</p>
-      <Button>Proceed to Payment</Button>
+      <Button variant='outlined'>Proceed to Payment</Button>
       <Button>Cancel Order</Button>
     </div>
   );

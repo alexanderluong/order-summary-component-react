@@ -1,6 +1,5 @@
 .card {
   max-width: 300px;
-  border: 1px solid black;
   margin: auto;
   text-align: center;
   display: flex;
@@ -8,11 +7,15 @@
   align-items: center;
   border-radius: 15px;
   overflow: hidden;
+  -webkit-box-shadow: 0px 53px 46px -11px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 53px 46px -11px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 53px 46px -11px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
   font-weight: 900;
   font-size: 1.6em;
+  color: hsl(223, 47%, 23%);
 }
 
 p {

@@ -1,2 +1,24 @@
 button {
+  width: 85%;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 1em 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  margin: 0.25rem 0;
+}
+
+.outlined {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  -webkit-box-shadow: 0px 21px 41px -11px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px 21px 41px -11px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 21px 41px -11px rgba(0, 0, 0, 0.64);
+}
+
+.flat {
+  color: hsl(224, 23%, 35%);
 }
