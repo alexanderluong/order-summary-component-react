@@ -1,11 +1,10 @@
 import './App.css';
+import OrderSummaryCard from './components/OrderSummaryCard/OrderSummaryCard';
 
 function App() {
   return (
     <div className='App'>
-      Order Summary You can now listen to millions of songs, audiobooks, and
-      podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-      Proceed to Payment Cancel Order
+      <OrderSummaryCard />
       <div class='attribution'>
         Challenge by{' '}
         <a
