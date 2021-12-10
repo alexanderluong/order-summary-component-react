@@ -8,7 +8,7 @@ const OrderSummaryCard = () => {
       <div>
         <HeroImage
           preserveAspectRatio='xMidYMid slice'
-          width='300px'
+          width='330px'
           height='150px'
           viewBox='0 0 400 200'
         />
