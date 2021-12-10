@@ -6,7 +6,12 @@ const OrderSummaryCard = () => {
   return (
     <div className={styles.card}>
       <div>
-        <HeroImage />
+        <HeroImage
+          preserveAspectRatio='xMidYMid slice'
+          width='300px'
+          height='150px'
+          viewBox='0 0 400 200'
+        />
       </div>
       <h1 className={styles.h1}>Order Summary</h1>
 
