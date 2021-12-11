@@ -4,7 +4,7 @@ const Button = ({ children, variant }) => {
   return (
     <button
       className={`${styles.button} ${
-        variant == 'outlined' ? styles.outlined : styles.flat
+        variant === 'outlined' ? styles.outlined : styles.flat
       }`}
       type='button'
     >
