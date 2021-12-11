@@ -1,6 +1,7 @@
 .card {
   max-width: 330px;
   margin: auto;
+  padding-bottom: 0.5em;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -18,6 +19,8 @@ h1 {
   color: hsl(223, 47%, 23%);
 }
 
-p {
+.description {
   max-width: 80%;
+  line-height: 1.5em;
+  color: hsl(223, 11%, 56%);
 }
