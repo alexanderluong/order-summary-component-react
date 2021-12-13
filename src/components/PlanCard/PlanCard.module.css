@@ -19,6 +19,10 @@
   font-size: 14px;
 }
 
+.link:hover {
+  color: hsl(223, 47%, 23%);
+}
+
 .plan {
   flex-grow: 2;
   text-align: left;
