@@ -5,15 +5,15 @@ const PlanCard = ({ price, planName }) => (
   <div className={styles.card}>
     <MusicIcon
       preserveAspectRatio='none'
-      height='46'
-      width='46'
+      height='50'
+      width='50'
       viewBox='0 0 50 50'
     />
     <span class={`flex-column ${styles.plan}`}>
-      <p>
+      <p className={styles.planText}>
         <b>{planName}</b>
       </p>
-      <p>{price}</p>
+      <p className={styles.planText}>{price}</p>
     </span>
     <a className={styles.link} href='#'>
       Change
