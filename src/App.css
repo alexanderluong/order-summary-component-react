@@ -9,3 +9,21 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.App {
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(224, 232, 255);
+}
+
+.mobileBackgroundSvg {
+  /* position: absolute;
+  z-index: -1; */
+}
+
+.desktopBackgroundSvg {
+  /* height: 100%;
+  width: 100%; */
+}
